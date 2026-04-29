@@ -15,9 +15,12 @@ Apply blurring to protect identity
 The system follows a simple image processing pipeline:
 
 ### Preprocessing
--Convert image to grayscale
--Apply histogram equalization for contrast enhancement
--Reduce noise using Gaussian blur
+-Convert image to grayscale.
+
+-Apply histogram equalization for contrast enhancement.
+
+-Reduce noise using Gaussian blur.
+
 ### Face Detection
 -Use Haar Cascade classifier to detect faces
 ### Segmentation
