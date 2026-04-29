@@ -1,31 +1,32 @@
- Face Blurring for Privacy Protection
+# Face Blurring for Privacy Protection
 
- Project Overview
+## Project Overview
 
 This project presents an automated face-blurring system designed to protect privacy in images by detecting and anonymizing human faces. With increasing concerns around digital privacy, the system helps prevent identity exposure in shared media such as social platforms, news content, and professional use.
 
- Objectives
+## Objectives
 Detect human faces in images automatically
 Improve image quality to enhance detection accuracy
 Extract and isolate face regions
 Apply blurring to protect identity
  
- Methodology
+## Methodology
 
 The system follows a simple image processing pipeline:
 
-Preprocessing
+### Preprocessing
 -Convert image to grayscale
 -Apply histogram equalization for contrast enhancement
 -Reduce noise using Gaussian blur
-Face Detection
+### Face Detection
 -Use Haar Cascade classifier to detect faces
-Segmentation
+### Segmentation
 -Extract bounding box coordinates of detected faces
-Face Blurring
+### Face Blurring
 -Apply Gaussian blur to detected face regions only
 -Merge blurred regions back into the original image
- Techniques Used
+
+## Techniques Used
 -Image processing (OpenCV)
 -Haar Cascade face detection
 -Gaussian Blur filtering
